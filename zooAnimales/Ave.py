@@ -8,3 +8,7 @@ class Ave(Animal):
         super().__init__(nombre, edad, habitat, genero)
         self._colorPlumas = colorPlumas
         Ave._listado.append(self)
+
+    @classmethod
+    def cantidadAves (cls):
+        return len(cls._listado)
