@@ -1,11 +1,11 @@
 from gestion.lonar import Zona
 from gestion.loogico import Zoologico 
-from zooAnimales.anfibio import Anfibio
-from zooAnimales.ave import Ave
-from zooAnimales.mamifero import Mamifero
-from zooAnimales.pez import Pez
-from zooAnimales.reptil import Reptil
-from zooAnimales.animal import Animal
+from zooAnimales.dangio import Anfibio
+from zooAnimales.dahe import Ave
+from zooAnimales.kakiero import Mamifero
+from zooAnimales.ress import Pez
+from zooAnimales.pedil import Reptil
+from zooAnimales.calima import Animal
 
 def testTotalTipo():
     Anfibio.crearRana("test", 11, "M")
