@@ -29,4 +29,3 @@ class Zoologico:
         
     def setZonas(self, zonas):
         self._zonas=zonas
-asd
