@@ -19,12 +19,12 @@ class Anfibio(Animal):
         return len(cls._listado)
     
     @classmethod
-    def CrearRana (cls, nombre, edad, genero):
+    def crearRana(cls, nombre, edad, genero):
         cls.ranas +=1
         Anfibio(nombre, edad, "selva", genero, "rojo", True)
 
     @classmethod
-    def CrearSalamandra (cls , nombre, edad, genero ):
+    def crearSalamandra(cls , nombre, edad, genero ):
         cls.salamandras +=1
         Anfibio(nombre, edad, "selva", genero, "negro y amarillo", False)
 
