@@ -1,3 +1,4 @@
+import zooAnimales
 class Animal:
     _totalAnimales=0
     def __init__(self, nombre, edad, habitat, genero):
@@ -39,7 +40,7 @@ class Animal:
     def setEdad(self, edad):
         self._edad=edad
 
-    def getHbaitat(self):
+    def getHabitat(self):
         return self._habitat
     
     def setHabitat(self, habitat):
