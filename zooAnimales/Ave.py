@@ -12,3 +12,12 @@ class Ave(Animal):
     @classmethod
     def cantidadAves (cls):
         return len(cls._listado)
+    
+    def crearHalcon (cls, nombre, edad, genero):
+        cls.hacones +=1
+        Ave(nombre, edad, "montanas", genero, "cafe glorioso")
+        
+    def crearAguila (cls, nombre, edad, genero):
+        cls.aguilas +=1
+        Ave(nombre, edad, "montanas", genero, "blanco y amarillo")
+    
